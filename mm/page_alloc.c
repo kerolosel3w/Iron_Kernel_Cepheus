@@ -4219,8 +4219,7 @@ retry:
 
 	/* Boost when memory is low so allocation latency doesn't get too bad */
 	cpu_input_boost_kick_max(250);
-	devfreq_boost_kick_max(DEVFREQ_MSM_LLCCBW, 250);
-	devfreq_boost_kick_max(DEVFREQ_MSM_CPUBW, 250);
+	devfreq_boost_kick_max(DEVFREQ_CPU_LLCC_DDR_BW, 250);
 
 	/* Try direct reclaim and then allocating */
 	if (!used_vmpressure)
