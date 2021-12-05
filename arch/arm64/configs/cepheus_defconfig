@@ -3404,6 +3404,7 @@ CONFIG_DRM_LT_LT9611=y
 # CONFIG_DRM_PL111 is not set
 # CONFIG_DRM_LEGACY is not set
 # CONFIG_DRM_LIB_RANDOM is not set
+CONFIG_DRM_MSM_KCAL_CTRL=y
 
 #
 # Frame buffer Devices
